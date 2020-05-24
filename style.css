@@ -1,0 +1,259 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:white ;
+    width: 100%;
+    background-image:
+    url(images/bg-tablet-pattern.svg),
+    url(images/bg-tablet-pattern.svg);
+    background-position: top right, bottom left;
+   background-repeat: no-repeat;
+   font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:25px;
+    top:0;
+    left:0;
+    right:0;
+    width: 80%;
+    margin: auto;
+    max-height:80px;
+}
+.nav-link{
+margin-left: 40px;
+text-align: right;
+text-decoration: none;
+color:black;
+}
+.nav-link:hover{
+    color: rgb(245, 76, 9);
+}
+button{
+    background-color:  rgb(245, 76, 9);
+    color:white;
+    border: none;
+    border-radius: 40px; 
+    text-decoration: none;
+    width:150px;
+    height:50px;
+    margin-top: 20px;
+    cursor:pointer;
+}
+.presentation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+.img1{
+    margin-top: 30px;
+}
+.bring h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  line-height: 1.2;
+  color: rgb(40, 40, 88);
+}
+.bring p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #abacae;
+}
+button.btn{
+   margin-top: 20px;
+}
+button.btn:hover{
+    cursor: pointer;
+    box-shadow:0 3px 5px rgba(9,4,2,0.9);
+        text-transform: uppercase;
+}
+    .different{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: auto;
+    }
+button.no{
+    background-color:  rgb(245, 76, 9);
+    width: 80px;
+    height: 40px;
+    border-radius: 30px;
+    position: relative;
+    right:40%;
+    top:40px;
+    margin-left: 40px;
+}
+.lists{
+    
+    display: flex;
+    flex-direction:column;
+    width: 400px;
+    justify-content: center;
+    margin-left: 60px;
+
+
+}
+.what{
+    margin-top: 40px;
+    line-height: 1.2;
+    
+}
+.what h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(40, 40, 88);
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.what p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #abacae;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.lists h2{
+    color: rgb(40, 40, 88);
+    margin-bottom: 5px;
+    
+}
+.lists p{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #abacae;
+
+}
+.said{
+    margin-top: 40px;
+}
+.said h2{
+    text-align: center;
+    color: rgb(40, 40, 88);
+    font-size: 30px;
+
+}
+.persons{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 80px;
+}
+.person{
+height: 100%;
+    width: 100%;
+margin-left: 20px;
+background-color: rgb(250, 246, 246);
+}
+
+.person:hover{
+    box-shadow: 0px 0px 15px 0 hsl(330, 5%, 92%);
+  
+
+}.person h3{
+    color: rgb(40, 40, 88);
+    position: relative;
+    bottom: 30px;
+
+}
+.person p{
+    color: #abacae;
+    line-height: 1.5;
+font-size: 16px;
+position: relative;
+bottom: 20px;
+
+}
+.round{
+    position: relative;
+    bottom:50px;
+}
+button.btn2{
+    text-align: center;
+    margin-left: 45%;
+    margin-top: 40px;
+    padding: 8px;
+    box-shadow: 0px 0px 15px 0 hsl(17, 94%, 48%);
+
+}
+button.btn2:hover{
+    box-shadow:0 3px 5px rgba(9,4,2,0.5);
+}
+.simplify{
+    width: 100%;
+    margin: auto;
+    margin-top:10%;
+    background-color: rgb(245, 76, 9);
+    padding-bottom: 40px;
+}
+.simplify h1{
+position: relative;
+top: 50px;
+    margin-left:10%;
+    color:white
+}
+button.btn3{
+    background-color: white;
+ color: rgb(245, 76, 9);
+ position: relative;
+ left:80%;
+ bottom: 5px;
+}
+button.btn3:hover{
+    box-shadow: 0px 0px 15px 0 hsl(330, 5%, 92%);
+opacity: 0.9;
+}
+
+#contact{
+    background-color: rgb(40, 40, 88);
+}
+.contact{
+    width: 80%;
+    height:250px;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items:flex-start;
+    padding:50px;
+}
+.last-icons{
+margin-top: 80px;
+}
+ li{
+    list-style: none;
+    line-height: 2.0;
+    color: #abacae;
+}
+input{
+    width: 200px;
+height: 40px;
+border-radius:30px ;
+border:0;
+text-align: center;
+}
+button.btn4{
+    width: 60px;
+    border-radius: 20px;
+    height: 40px;
+
+}
+button.btn4:hover{
+    opacity: 0.7;
+    text-shadow: hsl(330, 5%, 92%);
+    box-shadow: 0px 0px 15px 0 hsl(9, 96%, 47%);
+
+}
+div.copyright{
+    margin-top: 50px;
+    color: #abacae;
+
+
+}
